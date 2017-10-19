@@ -20,7 +20,7 @@ English Wikipedia Monthly Traffic Collection and Analysis/
   |- Data/  
      |- pagecounts_desktop-site_200801-201607.json  
      |- pagecounts_mobile-site_200801-201607.json   
-     |- pageviews_desktop-site_201507-201709.json  
+     |- pageviews_desktop_201507-201709.json  
      |- pageviews_mobile-web_201507-201709.json  
      |- pageviews_mobile-app_201507-201709.json  
      |- en-wikipedia_traffic_200801-201709.csv  
