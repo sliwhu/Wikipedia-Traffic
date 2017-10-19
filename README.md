@@ -68,9 +68,9 @@ The analyzed results were stored in a single CSV file named "en-wikipedia_traffi
 
 
 ### Special Considerations in Data Analysis
-* ##### Legacy pagecounts data is available from January 2008 through July 2016. Pageviews data is available from July 2015 through September 2017. Therefore, there is an overlap records from July 2015 to July 2016 with different traffic measurements. 
-* ##### Both data from the Pageview API and Pagecount API is segmented to desktop and mobile traffic. The mobile traffic for the Pageviews was a combination of mobile-app and mobile-web traffic. A total pageview of combining desktop and mobile views was included in the final data output ("en-wikipedia_traffic_200801-201709.csv") as well as in the final graph.
-* ##### Data from the Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
-* ##### For all months with 0 pageviews for a given access method (e.g. desktop-site, mobile-app), that value for that (column, month) was listed as 0 in the final data output ("en-wikipedia_traffic_200801-201709.csv"). So for example all values of pagecount_mobile_views for months before October 2014 are 0, because mobile traffic data is not available before that month.
-* ##### The analysis result is presented in a graph with three metrics: mobile traffic, desktop traffic, and all traffic(mobile + desktop), as well as two sources (Pagecount API and Pageview API, represented by dashed and solid lines respectively.)
+* Legacy pagecounts data is available from January 2008 through July 2016. Pageviews data is available from July 2015 through September 2017. Therefore, there is an overlap records from July 2015 to July 2016 with different traffic measurements. 
+* Both data from the Pageview API and Pagecount API is segmented to desktop and mobile traffic. The mobile traffic for the Pageviews was a combination of mobile-app and mobile-web traffic. A total pageview of combining desktop and mobile views was included in the final data output ("en-wikipedia_traffic_200801-201709.csv") as well as in the final graph.
+* Data from the Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
+* For all months with 0 pageviews for a given access method (e.g. desktop-site, mobile-app), that value for that (column, month) was listed as 0 in the final data output ("en-wikipedia_traffic_200801-201709.csv"). So for example all values of pagecount_mobile_views for months before October 2014 are 0, because mobile traffic data is not available before that month.
+* The analysis result is presented in a graph with three metrics: mobile traffic, desktop traffic, and all traffic(mobile + desktop), as well as two sources (Pagecount API and Pageview API, represented by dashed and solid lines respectively.)
 
